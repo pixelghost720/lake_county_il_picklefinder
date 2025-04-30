@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lake County picklefinder</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1><span class="black1">Lake County </span><span class="green">pickle</span><span class="black2">finder</span></h1>
+
+  <div id="legend">
+    <p id="outdoor" class="filter-button selected" onclick="toggleMarkers('Outdoor')">
+      <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png" width="20" height="34" /> Outdoor
+    </p>
+    <p id="indoor" class="filter-button selected" onclick="toggleMarkers('Indoor')">
+      <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png" width="20" height="34" /> Indoor
+    </p>
+    <p id="striped" class="filter-button selected" onclick="toggleMarkers('Striped')">
+      <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png" width="20" height="34" /> Striped
+    </p>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="js/locations.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

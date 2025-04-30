@@ -1,0 +1,55 @@
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+  }
+  .green {
+    color: green;
+    font-weight: 700;
+  }
+  .black1 {
+    color: black;
+    font-weight: 400;
+  }
+  .black2 {
+    color: black;
+    font-weight: 700;
+  }
+  #map {
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  #legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+  }
+  #legend p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+  }
+  #legend p.selected {
+    font-weight: bold;
+    color: #ff6600;
+    border: 1px solid #ff6600;
+    background-color: #fff3e0;
+  }
+  #legend img {
+    margin-right: 5px;
+  }
+  
