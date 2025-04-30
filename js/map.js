@@ -62,26 +62,3 @@ function toggleMarkers(type) {
     markerGroups[type].forEach(marker => marker.addTo(map));
   }
 }
-
-if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(
-    position => {
-      const userLat = position.coords.latitude;
-      const userLng = position.coords.longitude;
-
-      // Add marker to map
-      const userMarker = L.marker([userLat, userLng])
-        .addTo(map)
-        .bindPopup("You are here")
-        .openPopup();
-
-      // Optionally pan to user's location
-      map.setView([userLat, userLng], 13);
-    },
-    error => {
-      console.warn("Geolocation failed:", error.message);
-    }
-  );
-} else {
-  console.warn("Geolocation is not supported by this browser.");
-}
