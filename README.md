@@ -1,5 +1,3 @@
 ## Lake County picklefinder
 
-This is to help people in the Lake County, Illinois community find nearby pickleball courts at to enjoy
-
-testing testing 123
+This is a basic website I'm testing out to help the people of Lake County Illinois find local pickleball courts to enjoy!
