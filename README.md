@@ -1,18 +1,13 @@
-# Lake County Picklefinder
+# Lake County IL Picklefinder
 
-This is a basic website I'm testing out to help the people of Lake County Illinois find local pickleball courts to enjoy!
 =======
-An interactive map showing indoor, outdoor, and striped pickleball courts across Lake County, IL.
+This is an interactive map showing pickleball courts across Lake County Illinois.
 
 ## Features
-- Leaflet-powered interactive map
+- Interactive map
 - Filterable markers by court type
-- Google Maps "Directions" link in popups
-- Modular, maintainable code structure
+- Instant Google Maps directions
 
 ## Getting Started
-Open `index.html` in your browser.
+Open `https://pixelghost720.github.io/lake_county_il_picklefinder/` in your browser.
 
-## Customize
-- Add new courts to `js/locations.js`
-- Modify styles in `css/style.css`
